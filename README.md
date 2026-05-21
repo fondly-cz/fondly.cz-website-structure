@@ -1,0 +1,1 @@
+# fondly.cz-website-structure
