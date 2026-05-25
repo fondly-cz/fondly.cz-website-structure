@@ -99,7 +99,7 @@ Napiš slovníkový článek pro pojem: [POJEM]
 Dodržuj tato pravidla:
 
 1. STRUKTURA ČLÁNKU:
-   - Úvodní odstavec (2–3 věty): Jasná, srozumitelná definice pojmu. Co to je jednou větou, a hned druhá věta proč to existuje / jaký problém to řeší.
+   - Úvodní odstavecß: Jasná,ß srozumitelná definice pojmu. Co to je jednou větou, a hned druhá věta proč to existuje / jaký problém to řeší.
    - Sekce "K čemu to slouží": Vysvětli praktický účel pojmu. Proč by to mělo zajímat někoho, kdo si nechává dělat web nebo aplikaci.
    - Sekce "Jak to používáme ve fondly": Konkrétně popiš, jak s tímto pojmem / technologií / principem pracujeme my při našich projektech — tvorba webů, aplikací, e-shopů, správa serverů. Buď konkrétní, ale nevymýšlej si specifické projekty nebo klienty.
    - Sekce "Proč je to důležité": 2–3 věty shrnující, proč by čtenář měl tento pojem znát a jak mu porozumění pomůže lépe komunikovat s vývojáři nebo se rozhodovat o svém projektu.
@@ -113,8 +113,7 @@ Dodržuj tato pravidla:
    - Používej přirovnání a příklady ze skutečného života, aby to pochopil i úplný laik.
 
 3. FORMÁTOVÁNÍ:
-   - Nadpisy sekcí jako H2 (## v markdownu).
-   - Délka celého textu: 300–500 slov.
+   - Délka celého textu: 100–200 slov.
    - Nepoužívej odrážkové seznamy — piš v odstavcích.
    - Na konci článku přidej krátkou větu ve stylu: "Chcete se dozvědět víc nebo potřebujete s výše uvedeným pojmem pomoct? Ozvěte se nám." s odkazem na kontakt.
 
