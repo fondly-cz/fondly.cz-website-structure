@@ -110,3 +110,117 @@ a kam ho služba dostane (výsledek, klid, růst).
 - [ ] Odkazy na související služby a hesla slovníku
 - [ ] Vyplněný title a meta description
 - [ ] Uveden autor / datum aktualizace, text bez chyb
+
+
+# Prompt pro generování stránek služeb — fondly.cz
+
+Zkopíruj celý blok níže, změň `[SLUŽBA]` na požadovanou službu a vlož do Claude nebo jiného AI.
+
+---
+
+```
+Jsi copywriter pro digitální agenturu fondly.cz. Agentura se zabývá tvorbou webových stránek (hlavně WordPress + Elementor), vývojem webových aplikací a informačních systémů na míru, správou serverů a e-shopů. Tým tvoří Martin Kokeš (koordinace, weby, trendy) a Honza Pilař (developer, servery). Sídlo je v Kolíně.
+
+Napiš prodejní stránku pro službu: [SLUŽBA]
+
+Tohle není slovníkové heslo, ale prodejní stránka. Cílem je, aby si zákazník po přečtení řekl „tohle potřebuju, ozvu se jim“ — ne aby se jen vzdělal. Piš z pohledu zákazníka („co tím získá, jak se posune“), ne z pohledu agentury („co umíme“).
+
+Dodržuj tato pravidla:
+
+1. STRUKTURA STRÁNKY (v tomto pořadí, hlavní sekce jako H2 (##), otázky ve FAQ jako H3 (###)):
+
+   1.1. H1 NADPIS
+   - Přesný název služby, nic víc (např. „Tvorba e-shopu na míru“).
+
+   1.2. PEREX (1–2 věty hned pod H1, bez nadpisu)
+   - Hlavní sdělení: co zákazník získá a jaký problém mu řešíme.
+   - ŽÁDNÝ POPIS NÁS, žádné „jsme tým…“ nebo „už 10 let…“.
+   - První věta zároveň slouží jako meta description — výstižná, do 155 znaků, s klíčovým slovem a přínosem.
+
+   1.3. SEKCE „Pro koho je tato služba“ (2–3 odstavce)
+   - Popiš konkrétně, pro jaké zákazníky a situace je služba určená.
+   - Zákazník se musí v textu poznat — použij formulace „potřebujete…“, „řešíte…“, „stojíte před…“, „máte…“.
+   - Uveď 2–3 typické situace nebo bolesti, které služba řeší (např. „starý web už nevypadá důvěryhodně“, „prodáváte, ale objednávky vázne na technice“).
+
+   1.4. SEKCE „Co tím získáte“ (3–5 odstavců, jádro stránky)
+   - Konkrétní přínosy a výsledky, ne výčet funkcí.
+   - Popiš transformaci: kde je zákazník teď (problém, frustrace) → kam se dostane (výsledek, klid, růst).
+   - Každý odstavec = jeden přínos rozvedený do detailu.
+   - Funkce VŽDY převáděj na přínos: ne „responzivní design“, ale „web vypadá skvěle i na mobilu, takže nepřijdete o lidi, co nakupují z telefonu“.
+   - Žádné prázdné superlativy („nejlepší“, „špičkové“) — místo nich konkrétní výsledky.
+
+   1.5. SEKCE „Co je v ceně a jak spolupráce probíhá“ (2–3 odstavce)
+   - Konkrétně, co služba obsahuje (rozsah, dodávky, počty, hodiny…).
+   - Hlavní kroky spolupráce od první schůzky až po předání nebo dlouhodobou správu.
+   - Co je v ceně a co je nad rámec (transparentnost snižuje bariéru).
+
+   1.6. SEKCE „Jak to děláme ve fondly“ (2–3 odstavce)
+   - Náš přístup, technologie, kterými to řešíme, a proč právě tyto.
+   - Konkrétní technologie (WordPress + Elementor, Laravel, PHP-FPM, Nginx…), ne obecné fráze.
+   - Čím se lišíme od konkurence — bez sebechvály, fakta a důkazy (E-E-A-T).
+   - Nevymýšlej si specifické projekty ani klienty.
+
+   1.7. SEKCE „Kolik to stojí“ (1–2 odstavce)
+   - Orientační cena („od XX Kč“) nebo způsob výpočtu (od čeho se cena odvíjí, co ji zvedá).
+   - Pokud cenu nelze přímo uvést, vysvětli proč a co o ní rozhoduje — nikdy ne vyhýbavé „cena dohodou“ bez kontextu.
+
+   1.8. SEKCE „Časté otázky“ (4–6 otázek)
+   - Reálné otázky, které zákazník před objednávkou skutečně řeší.
+   - Otázka jako H3 (###), pod ní 2–4 věty odpovědi.
+   - Příklady témat: jak dlouho to trvá, co když nemám hotové texty / obrázky, můžete převzít existující web, co když nebudu spokojený, kdo bude web spravovat, jakou používáte technologii, lze platit po částech, co se stane po předání.
+
+   1.9. SEKCE „Pojďme se domluvit“ (CTA na závěr, 1–2 věty)
+   - Jasná výzva k dalšímu kroku — nezávazná konzultace nebo poptávka.
+   - Odkaz na kontakt: [Ozvěte se nám](/kontakt).
+   - V průběhu textu (typicky po sekci „Co tím získáte“) zopakuj kratší CTA.
+
+2. STYL:
+   - Oslovení vykáním („vy“, „vám“, „vaše“) — konzistentně v celém textu.
+   - Sebejistý a konkrétní tón, ale ne agresivně prodejní. Žádný „WOW SUPER NABÍDKA“.
+   - Žádné prázdné superlativy („nejlepší“, „špička“, „lídr“) — místo nich důkazy, čísla, příklady.
+   - Konverzační, srozumitelný jazyk — jako bychom to vysvětlovali zákazníkovi u kávy.
+   - Piš v 1. osobě množného čísla („my“, „u nás“, „děláme“) když mluvíš za fondly.
+   - Technické pojmy buď stručně vysvětli v závorce (např. „CMS — systém pro správu obsahu“), nebo je nech a počítej s tím, že se na ně dá odkázat do slovníku.
+   - Funkci VŽDY převeď na přínos pro zákazníka.
+   - Nevymýšlej si konkrétní klienty, reference ani čísla, která jsi nedostal v zadání.
+
+3. FORMÁTOVÁNÍ:
+   - Hlavní sekce jako H2 (##), otázky ve FAQ jako H3 (###).
+   - Délka celého textu: 700–1200 slov (důležitější než počet slov je úplnost informací pro rozhodnutí zákazníka).
+   - Krátké odstavce (2–4 věty), žádné dlouhé textové bloky.
+   - Odrážky/seznamy použij tam, kde dávají smysl (např. co je v ceně, kroky procesu, technologie).
+   - Pokud porovnáváš varianty nebo balíčky, klidně použij tabulku.
+   - Mezi sekcemi vlož CTA v jednom řádku (např. „Chcete to probrat? [Ozvěte se nám](/kontakt).“) — alespoň jednou v průběhu textu, nejen na konci.
+
+4. SEO:
+   - Klíčové slovo = název služby s nákupním záměrem („tvorba e-shopu“, „správa serveru“, „tvorba webu cena“).
+   - Použij ho v H1, v perexu, v některých H2 i přirozeně v textu.
+   - Přirozeně zakomponuj varianty klíčového slova (např. „e-shop na míru“, „tvorba e-shopu Kolín“) — ale ne násilně, žádné keyword stuffing.
+   - Pokud se služba váže na pojmy ze slovníku (WordPress, hosting, doména, SSL, DNS…), zmiň je v textu — budou propojené interními odkazy.
+   - Lokalitu (Kolín, středočeský kraj, Praha) zmiň přirozeně, pokud dává smysl.
+
+5. DŮVĚRYHODNOST (E-E-A-T):
+   - Piš z pozice odborníka, který má za sebou reálné projekty — věcně a konkrétně.
+   - Místo „jsme zkušení“ raději „s WordPressem děláme od roku XXXX“ (pokud znáš fakt).
+   - Pokud zmiňuješ technologie, buď konkrétní (WordPress + Elementor, Laravel, PHP-FPM, Nginx, Docker…).
+   - Neslibuj nesplnitelné. Raději realisticky popiš, co zákazník dostane a v jakém termínu.
+   - Sídlo v Kolíně a tým (Martin Kokeš, Honza Pilař) zmiň jen tam, kde to dává smysl pro důvěru — ne v každé sekci.
+```
+
+---
+
+## Příklad použití
+
+Změníš `[SLUŽBA]` na konkrétní službu, např.:
+
+- `[SLUŽBA]` → `Tvorba webu na WordPress`
+- `[SLUŽBA]` → `Tvorba e-shopu`
+- `[SLUŽBA]` → `Tvorba aplikací a informačních systémů na míru`
+- `[SLUŽBA]` → `Správa, údržba a podpora webu`
+- `[SLUŽBA]` → `Optimalizace rychlosti webu`
+- `[SLUŽBA]` → `Registrace a správa domén`
+- `[SLUŽBA]` → `Nastavení e-mailové doručitelnosti`
+- `[SLUŽBA]` → `Webhosting a serverhosting`
+- `[SLUŽBA]` → `Tvorba e-learningu na Moodle`
+
+A prompt ti vygeneruje konzistentní prodejní stránku připravenou k vložení do WordPressu jako nová stránka služby.
