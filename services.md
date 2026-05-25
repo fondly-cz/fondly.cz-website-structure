@@ -56,5 +56,5 @@
 - Technická konzultace k webu nebo e-shopu
 - Kontrola cenové nabídky od jiného dodavatele
 - Revize zadání a poptávky na web
-- Nezávislý technický posudek webu (second opinion)
+- Nezávislý technický posudek webu
 - Konzultace k výběru technologie a dodavatele
