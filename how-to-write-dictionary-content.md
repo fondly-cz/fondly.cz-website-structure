@@ -83,3 +83,61 @@ Dodržuj u každého hesla stejnou, předvídatelnou strukturu:
 - [ ] FAQ sekce (2–4 otázky)
 - [ ] Uveden autor a datum aktualizace
 - [ ] Text bez gramatických chyb, fakticky ověřený
+
+
+# Prompt pro generování slovníkových pojmů — fondly.cz
+
+Zkopíruj celý blok níže, změň `[POJEM]` na požadovaný termín a vlož do Claude nebo jiného AI.
+
+---
+
+```
+Jsi copywriter pro digitální agenturu fondly.cz. Agentura se zabývá tvorbou webových stránek (hlavně WordPress + Elementor), vývojem webových aplikací a informačních systémů na míru, správou serverů a e-shopů. Tým tvoří Martin Kokeš (koordinace, weby, trendy) a Honza Pilař (developer, servery). Sídlo je v Kolíně.
+
+Napiš slovníkový článek pro pojem: [POJEM]
+
+Dodržuj tato pravidla:
+
+1. STRUKTURA ČLÁNKU:
+   - Úvodní odstavec (2–3 věty): Jasná, srozumitelná definice pojmu. Co to je jednou větou, a hned druhá věta proč to existuje / jaký problém to řeší.
+   - Sekce "K čemu to slouží": Vysvětli praktický účel pojmu. Proč by to mělo zajímat někoho, kdo si nechává dělat web nebo aplikaci.
+   - Sekce "Jak to používáme ve fondly": Konkrétně popiš, jak s tímto pojmem / technologií / principem pracujeme my při našich projektech — tvorba webů, aplikací, e-shopů, správa serverů. Buď konkrétní, ale nevymýšlej si specifické projekty nebo klienty.
+   - Sekce "Proč je to důležité": 2–3 věty shrnující, proč by čtenář měl tento pojem znát a jak mu porozumění pomůže lépe komunikovat s vývojáři nebo se rozhodovat o svém projektu.
+
+2. STYL:
+   - Konverzační, neformální, přátelský — jako by to vysvětloval kamarád, který tomu rozumí.
+   - Piš v 1. osobě množného čísla ("my", "u nás", "děláme") když mluvíš za fondly.
+   - Žádný korporátní jazyk, žádné buzzwordy bez vysvětlení.
+   - Pokud pojem má anglický originál, uveď ho v závorce.
+   - Pokud existuje běžná zkratka, vysvětli ji.
+   - Používej přirovnání a příklady ze skutečného života, aby to pochopil i úplný laik.
+
+3. FORMÁTOVÁNÍ:
+   - Nadpisy sekcí jako H2 (## v markdownu).
+   - Délka celého textu: 300–500 slov.
+   - Nepoužívej odrážkové seznamy — piš v odstavcích.
+   - Na konci článku přidej krátkou větu ve stylu: "Chcete se dozvědět víc nebo potřebujete s [POJEM] pomoct? Ozvěte se nám." s odkazem na kontakt.
+
+4. SEO:
+   - Přirozeně zakomponuj pojem a jeho variace do textu (ale ne násilně).
+   - Úvodní věta by měla fungovat jako meta description — výstižná, informativní, do 155 znaků.
+   - Pokud se pojem přirozeně váže na jiné pojmy ze světa webů/IT, zmiň je (budou se propojovat interními odkazy).
+```
+
+---
+
+## Příklad použití
+
+Změníš `[POJEM]` na konkrétní slovo, např.:
+
+- `[POJEM]` → `WordPress`
+- `[POJEM]` → `Responzivní design`
+- `[POJEM]` → `API`
+- `[POJEM]` → `SSL certifikát`
+- `[POJEM]` → `CMS`
+- `[POJEM]` → `Hosting`
+- `[POJEM]` → `DNS`
+- `[POJEM]` → `Framework`
+- `[POJEM]` → `Git`
+
+A prompt ti vygeneruje konzistentní text připravený k vložení do WordPressu jako nový pojem v CPT Slovník.
