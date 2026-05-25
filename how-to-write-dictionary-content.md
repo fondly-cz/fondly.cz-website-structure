@@ -116,7 +116,7 @@ Dodržuj tato pravidla:
    - Nadpisy sekcí jako H2 (## v markdownu).
    - Délka celého textu: 300–500 slov.
    - Nepoužívej odrážkové seznamy — piš v odstavcích.
-   - Na konci článku přidej krátkou větu ve stylu: "Chcete se dozvědět víc nebo potřebujete s [POJEM] pomoct? Ozvěte se nám." s odkazem na kontakt.
+   - Na konci článku přidej krátkou větu ve stylu: "Chcete se dozvědět víc nebo potřebujete s výše uvedeným pojmem pomoct? Ozvěte se nám." s odkazem na kontakt.
 
 4. SEO:
    - Přirozeně zakomponuj pojem a jeho variace do textu (ale ne násilně).
